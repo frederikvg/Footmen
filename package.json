@@ -24,6 +24,11 @@
     "express": "*",
     "mongoose": "*",
     "body-parser": "*",
-    "method-override": "*"
+    "method-override": "*",
+    "angular": "*",
+    "angular-animate": "*",
+    "angular-route": "*",
+    "jquery": "*",
+    "bootstrap": "*"
   }
 }

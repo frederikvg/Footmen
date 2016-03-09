@@ -8,7 +8,8 @@ mongoose.connect('mongodb://localhost/footmen');
 app.use(bodyParser.urlencoded({'extended':'true'}));
 app.use(bodyParser.json());
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
+app.use('/scripts', express.static(__dirname + '/node_modules/'));
 
 app.listen(3000, function () {
     console.log('Footmen draait nu op localhost:3000');
