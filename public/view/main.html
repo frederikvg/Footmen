@@ -1,8 +1,6 @@
 <div class="row">
     <div class="panelLeft col-sm-6">
-
         <article ng-mouseenter="muteButton=true" ng-mouseleave="muteButton=false">
-
             <div ng-hide="hideVideoText" class="fadein fadeout">
                 <div class="panelLeftText">
                     <p class="titel">Word een bezorger</p>
@@ -13,23 +11,18 @@
                     <button class="login">Log in</button>of<button class="registreer">Registreer</button>
                 </div>
             </div>
-
             <div class="muteButton fadeinFast fadeoutFast" ng-show="muteButton">
                 <a href="">
-                <img src="img/muted.png" ng-click="soundVideo()" ng-show="videoSound" />
-                <img src="img/unmuted.png" ng-click="soundVideo()" ng-show="!videoSound" />
-                <p class="muteButtonText">Bekijk hoe het werkt</p>
+                    <img src="img/muted.png" ng-click="soundVideo()" ng-show="videoSound" />
+                    <img src="img/unmuted.png" ng-click="soundVideo()" ng-show="!videoSound" />
+                    <p class="muteButtonText">Bekijk hoe het werkt</p>
                 </a>
             </div>
-
             <video autoplay loop id="video" muted>
                 <source src="img/background.mp4" type="video/mp4">
             </video>
-
         </article>
-
     </div>
-
     <div class="panelRight col-xs-12 col-sm-6">
         <div class="telList">
             <div class="col-xs-6 iphone">
@@ -48,10 +41,8 @@
         <div class="panelRightText">
             <p class="titel">Vind een bezorger</p>
         </div>
-
         <div class="buttonGroupRight">
             <button class="login">Log in</button>of<button class="registreer">Registreer</button>
         </div>
-
     </div>
 </div>

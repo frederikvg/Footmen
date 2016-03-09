@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 
-mongoose.connect('mongodb://localhost/monster');
+mongoose.connect('mongodb://localhost/footmen');
 app.use(bodyParser.urlencoded({'extended':'true'}));
 app.use(bodyParser.json());
 
