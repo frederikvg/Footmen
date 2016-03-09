@@ -1,0 +1,29 @@
+{
+  "name": "footmen",
+  "version": "1.0.0",
+  "description": "Deliver every product within half an hour",
+  "main": "footmen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "supervisor footmen.js"
+  },
+  "keywords": [
+    "delivery",
+    "products",
+    "website",
+    "Ruben van Genderen",
+    "Frederik van Genderen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frederikvg/Footmen.git"
+  },
+  "author": "Frederik van Genderen <frederikvangenderen.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "body-parser": "*",
+    "method-override": "*"
+  }
+}
